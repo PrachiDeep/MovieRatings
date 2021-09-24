@@ -1,0 +1,21 @@
+{ 
+    "Movie":[{ "id": 1,
+       "title": "spiderman",
+       "imgSrc": "https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1627046062/user-999844/profile/e1wkrbn91ezohqbhqwus.jpg",
+      "redirect": "https://www.youtube.com/watch?v=WgU7P6o-GkM",
+      "raitings": "8.5",
+       "summary":"For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."},
+       { "id": 2,
+           "title": "spiderman",
+           "imgSrc": "https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1627046062/user-999844/profile/e1wkrbn91ezohqbhqwus.jpg",
+           "redirect": "https://www.youtube.com/watch?v=WgU7P6o-GkM",
+           "raitings": "8.5",
+           "summary":"For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."},
+           { "id": 3,
+               "title": "spiderman",
+               "imgSrc": "https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1627046062/user-999844/profile/e1wkrbn91ezohqbhqwus.jpg",
+               "redirect": "https://www.youtube.com/watch?v=WgU7P6o-GkM",
+               "raitings": "8.5",
+               "summary":"For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."}
+ ]
+}

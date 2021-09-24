@@ -1,0 +1,46 @@
+  
+     { 
+        "Movie":[{ "id": 1,
+           "title": "Spiderman:No Way Home",
+           "imgSrc": "https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1627046062/user-999844/profile/e1wkrbn91ezohqbhqwus.jpg",
+          "redirect": "https://www.youtube.com/watch?v=WgU7P6o-GkM",
+          "raitings": "8.5",
+          "y-o-r":"2021",
+          "runtime":"1hr 20min",
+           "certification":"U",
+           "directors": "",
+           "writers":"",
+           "stars":"",
+           "summary":"For the first time in the cinematic history of Spider-Man, our friendly neighborhood hero is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+        },
+           
+               {    "id": 2,
+                    "title": "Malignant",
+                    "imgSrc": "https://www.newsbricks.com/root_upld/general-news/2021/07/64747/org_08573202107211516.jpg",
+                    "redirect": "https://www.youtube.com/watch?v=Gczt0fhawDs",
+                     "raitings": "8.5",
+                     "y-o-r":"2021",
+                    "runtime":"1hr 20min",
+                    "certification":"U",
+                    "directors": "James Wan",
+                    "writers":"James Wan(story by), Ingrid Bisu(story by), Akela Cooper(story by)",
+                    "stars":"S Annabelle Wallis ,Maddie Hasson , George Young",
+                    "summary":"Madison is paralyzed by shocking visions of grisly murders, and her torment worsens as she discovers that these waking dreams are in fact terrifying realities."
+                },
+               {   "id": 3,
+                   "title": "Shershah",
+                   "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Shershaah_film_poster.jpg/220px-Shershaah_film_poster.jpg",
+                   "redirect": "https://www.youtube.com/watch?v=Q0FTXnefVBA",
+                   "raitings": "8.5",
+                   "y-o-r":"2021",
+                   "runtime":"1hr 20min",
+                   "certification":"U",
+                   "directors": "Vishnuvardhan",
+                   "writers":"Sandeep Shrivastava(screenplay)",
+                   "stars":"Sidharth Malhotra ,Kiara Advani ,Shiv Panditt",
+                   "summary":"This is a story of a PVC awardee brave Indian soldier - Capt. Vikram Batra, who shot to fame and became a household name during the Kargil War in 1999. His indomitable spirit and his unflinching courage in chasing the Pakistani soldiers out of Indian territory contributed immensely in India finally winning the Kargil War in 1999."
+                }
+     ]
+    }
+       
+ 
