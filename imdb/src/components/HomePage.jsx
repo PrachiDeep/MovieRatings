@@ -16,9 +16,14 @@ import MovieListing from './MovieListing';
 class HomePage extends Component {
 
  
+  
+ 
     render() { 
         return (<React.Fragment>
-            <NavBar />
+          {/* {this.handleSignIn} */}
+            {console.log("homepage"+this.props.userLogIn)}
+            {console.log("home"+this.props.userName)}
+            <NavBar userLogIn={this.props.userLogIn} userName={this.props.userName} />
             <div className="row">
               <div className="col-md-9">
               
