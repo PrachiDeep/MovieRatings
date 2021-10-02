@@ -1,13 +1,31 @@
 import React, { Component } from 'react';
-class Search extends React.Component {
+class Search extends Component {
+    state={name:null};
+    
+
+    updateName=(e)=> {
+      
+        this.setState({
+          name: e.target.value
+        });
+    }
+        
+    searchMovie=(e)=>{
+        e.preventDefault();
+        console.log(this.state.name);
+        this.props.searchMovie(this.state.name);
+   
+    }
     render() { 
-        return <div>
+        return (<div>
                  <form>
-                     <input type="text" placeholder="search IMDb"/>
-                    <button type="submit">Search</button>
+                     <input type="text"  onChange={e => this.updateName(e)} placeholder="search IMDb"/>
+                    <button onClick={this.searchMovie} >Search</button>
+                
                  </form>
-             </div>;
+             </div>);
     }
 }
+
  
 export default Search;

@@ -3,7 +3,7 @@ import Details from './Details';
 import { BrowserRouter as Router, Route, Link, Switch ,Redirect} from 'react-router-dom';
 import data from "./MovieData.json"
 // import {Redirect} from 'react-router-dom';
-import {browserHistory} from "react-router";
+// import {browserHistory} from "react-router";
 import {poster1} from '../Data/Images'
 class Movie extends Component {
    

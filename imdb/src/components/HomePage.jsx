@@ -14,25 +14,48 @@ import MovieTrailers from './MovieTrailers';
 import MovieListing from './MovieListing';
 
 class HomePage extends Component {
+state={
+  filteredMovies: this.props.data
+}
+ searchMovie=keyWord=>{
+  var word= keyWord.replace(/\s+/g,' ').trim();
+  
+  if(word== null)
+  {
+    this.setState({filteredMovies: {...this.state.filteredMovies, Movie:this.props.data.Movie}})
+  }
+else{
+   const arr=[...this.state.filteredMovies.Movie]
+    const arr2= this.props.data.Movie.filter((item)=>{return item.title.includes(word)})
+    if((arr2.length)===0)
+    {
 
+      this.setState({filteredMovies: {...this.state.filteredMovies, Movie:this.props.data.Movie}})
+    }
+    else{
+    
+      this.setState({filteredMovies: {...this.state.filteredMovies, Movie:arr2}})
+    }
  
+}
+ }
   
  
     render() { 
         return (<React.Fragment>
-          {/* {this.handleSignIn} */}
+
             {console.log("homepage"+this.props.userLogIn)}
             {console.log("home"+this.props.userName)}
-            <NavBar userLogIn={this.props.userLogIn} userName={this.props.userName} />
+            <NavBar searchMovie={this.searchMovie} userLogIn={this.props.userLogIn} userName={this.props.userName} />
             <div className="row">
               <div className="col-md-9">
               
-              <MovieListing data={this.props.data}/>
+              <MovieListing data={this.state.filteredMovies}/>
                   </div>
               
 
               <div className="col-md-3">
-                  <MovieTrailers data={this.props.data}/>
+                  <MovieTrailers data={this.state.filteredMovies}/>
               </div>
 
             </div>
